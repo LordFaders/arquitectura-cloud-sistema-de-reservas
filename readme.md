@@ -1,5 +1,5 @@
 # Sistema de Reservas en la Nube
-### Documentación de Arquitectura — Evaluación Módulo 2 (Alkemy, Arquitecto Cloud)
+### Documentación de Arquitectura — Evaluación Módulo 2 (Arquitecto Cloud)
 
 ---
 
@@ -153,8 +153,6 @@ C4Component
     Rel(repository, db, "Lee/Escribe")
     Rel(publisher, bus, "Publica evento")
 ```
-
-> **Nota sobre la notación:** C4 en Mermaid es soportado pero algo más limitado en estilos que C4-PlantUML o herramientas como Structurizr. Si tu rúbrica exige fidelidad estricta al estándar C4 (con leyenda de colores, boundaries anidados, etc.), te recomiendo además generar una versión en [Structurizr](https://structurizr.com/) o draw.io con la plantilla C4 — el contenido conceptual (qué cajas y relaciones van) ya está resuelto acá, solo cambiaría la herramienta de renderizado.
 
 ### 4.4 Justificación de decisiones clave
 
